@@ -40,25 +40,23 @@ Sustainable platform of sensing and irrigation automation based around the Sense
 
 # Helium Account and Credentials.
 
-Antes de empezar a configurar los sevices, plataforma e integraciones. Primero necesitamos crear nuestra cuenta de Helium y posteriormente crear un device.
+Before starting to configure the services, platform and integrations. First we need to create our Helium account and then create a device.
 
 <img src="https://i.ibb.co/mvxQH4f/image-2.png">
 
-En el menu de devices tendras que crear un device nuevo.
+In the devices menu you will have to create a new device.
 
 <img src="https://i.ibb.co/thn3wyh/image-4.png">
 
-Inmediatamente la plataforma nos dara las 3 credenciales necesarias para que nuestro device mande datos a Helium.
+Immediately the platform will give us the 3 necessary credentials for our device to send data to Helium.
 
 <img src="https://i.ibb.co/44hzpYv/image-5.png">
 
-Ahora si podemos pasar a realizar nuestros devices.
-
-# Wio Terminal Setup:
+Now if we can move on to making our devices.
 
 # Lora E5 mini Setup:
 
-Como parte de este proyecto se decidio agregar otro tipo de placa LoRa de la familia WIO para mostrar el que entre todas y segun las necesidades es posible crear un ecosistema de sensores.
+As part of this project, it was decided to add another type of LoRa board from the WIO family to show that among all of them and according to the needs, it is possible to create an ecosystem of sensors.
 
 CODE: https://github.com/EddOliver/AgroLoRa/tree/main/FreeRTOS_LoRaWAN_AT
 
@@ -66,43 +64,43 @@ https://wiki.seeedstudio.com/LoRa_E5_mini/
 
 <img src="https://i.ibb.co/XXCZFfF/image.png">
 
-Primero que nada esta placa es parte de la familia de chips STM32 requiere del programador ST-LINK/V2 Programmer, por suerte  este tipo de programadores ya vienen embebidos en muchas otras placas y es posible usarlos para programarlas, en nuestro caso teniamos ya una placa B-L072Z-LRWAN la cual ya tiene integrado el ST-LINK/V2 Programmer.
+First of all, this board is part of the family of STM32 chips, it requires the ST-LINK/V2 Programmer, luckily this type of programmers are already embedded in many other boards and it is possible to use them to program them, in our case we already had a board B-L072Z-LRWAN which already has the ST-LINK/V2 Programmer integrated.
 
 <img src="https://i.ibb.co/4Mkvh7L/image.png">
 
-Para programar nuestra placa tenemos que conectar los pines de programacion de la siguiente forma.
+To program our board we have to connect the programming pins as follows.
 
 <img src="https://i.ibb.co/ScZZzZy/Untitled-Sketch.png">
 
-Esa placa puede ser programada mediante Arduino IDE y STM32CubeIDE, en nuestro caso ya que SeeedStudio nos provee un ejemplo de como configurar las credenciales LoRa desde STM32CubeIDE, decidimos que seria mejor usar el software propio de ST.
+This board can be programmed through Arduino IDE and STM32CubeIDE, in our case since SeeedStudio provides us with an example of how to configure LoRa credentials from STM32CubeIDE, we decided that it would be better to use ST's own software.
 
 <img src="https://i.ibb.co/FndpCJC/image.png">
 
-Las credenciales que obtuvimos en [Helium Account and Credentials](#helium-account-and-credentials) las vamos a configurar en el archivo 
+The credentials that we obtained in [Helium Account and Credentials](#helium-account-and-credentials) are going to be configured in the file
 
 https://github.com/EddOliver/AgroLoRa/blob/main/FreeRTOS_LoRaWAN_AT/LoRaWAN/App/se-identity.h
 
 <img src="https://i.ibb.co/zbW5kmR/image.png">
 
-Una vez realizado esto, solo habra que darle build al proyecto y programarlo en nustra board.
+Once this is done, we will only have to build the project and program it on our board.
 
 <img src="https://i.ibb.co/pyrmd1x/image.png">
 
-Si todo el proceso anterior esta bien realizado, podremos revisar en un monitor serial, que la board responde a los comandos AT.
+If all the previous process is well done, we can check on a serial monitor that the board responds to AT commands.
 
 <img src="https://i.ibb.co/HBrn9ps/image.png">
 
-Ya que tenemos nuestra board funcionando como un nodo LoRa, podemos mandar datos a travez de ella desde cualquier MCU mediante comunicacion serial, en nuestro caso usamos un ESP32 el cual se encargara de leer los datos de los sensores y mandarlos mediante la board a LoRa.
+Since we have our board working as a LoRa node, we can send data through it from any MCU through serial communication, in our case we use an ESP32 which will be in charge of reading the data from the sensors and sending them through the board to LoRa.
 
 Code: https://github.com/EddOliver/AgroLoRa/tree/main/AgroLoRaESP
 
 # Helium Console
 
-Todos los datos en este momento ya deberian estar llegando a la Helium console.
+All the data at this moment should already be arriving at the Helium console.
 
 <img src="https://i.ibb.co/48WqNMW/image.png">
 
-Los datos que recibamos en helium siempre estaran codificados en base64, asi que ya en nuestro dashboard tendremos que realizar algun algoritmo para tranformarlo denuevo en la data original.
+The data that we receive in helium will always be encoded in base64, so already in our dashboard we will have to perform some algorithm to transform it back into the original data.
 
 <img src="https://i.ibb.co/GCF3rtY/image-6.png">
 
@@ -142,17 +140,17 @@ Performing a system test.
 
 # Dashboard:
 
-Para nuestro dashboard hicimos una pagina web sencilla con ReactJS, decidimos que el color verde era lo mas representativo de un reto de sustentabilidad.
+For our dashboard we made a simple web page with ReactJS, we decided that the green color was the most representative of a sustainability challenge.
 
-Para la pagina de graficas, hicimos un selector de cultivos, donde podremos ver los datos en tiempo real de cada cultivo, los datos en las graficas son directamente mandados desde Helium, en nuestra integracion con AWS.
+For the graphics page, we made a crop selector, where we can see the real-time data of each crop, the data in the graphics is sent directly from Helium, in our integration with AWS.
 
 <img src="https://i.ibb.co/Gt9mnXX/image.png">
 
-Tambien agregamos una pagina, donde veremos la localizacion de nuestros devices, con el fin de poder realizar un mejor seguimiento del clima.
+We also added a page, where we will see the location of our devices, in order to better track the weather.
 
 <img src="https://i.ibb.co/b3v3WNq/image.png">
 
-Aqui un ejemplo de como llegan los datos desde AWS IoT a nuestra pagina.
+Here is an example of how the data arrives from AWS IoT to our page.
 
 <img src="https://i.ibb.co/k4crJ8h/image.png">
 
