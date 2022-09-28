@@ -94,24 +94,19 @@ Si todo el proceso anterior esta bien realizado, podremos revisar en un monitor 
 
 Ya que tenemos nuestra board funcionando como un nodo LoRa, podemos mandar datos a travez de ella desde cualquier MCU mediante comunicacion serial, en nuestro caso usamos un ESP32 el cual se encargara de leer los datos de los sensores y mandarlos mediante la board a LoRa.
 
-Code: 
+Code: https://github.com/EddOliver/AgroLoRa/tree/main/AgroLoRaESP
 
-# Create your Dashboard
+# Helium Console
 
+Todos los datos en este momento ya deberian estar llegando a la Helium console.
 
+<img src="https://i.ibb.co/48WqNMW/image.png">
 
-# 5. Connect to Helium
+Los datos que recibamos en helium siempre estaran codificados en base64, asi que ya en nuestro dashboard tendremos que realizar algun algoritmo para tranformarlo denuevo en la data original.
 
-First we need to create our account on the Helium console to get the previously needed credentials:
-https://console.helium.com/
-Go to the Devices tab to get the credentials. And create a Device to get them.
+<img src="https://i.ibb.co/GCF3rtY/image-6.png">
 
-caption (optional)
-And save these values as they are your credentials!
-Set up your Kit.
-----docu pending
-
-## Helium - AWS IoT Integration:
+# Helium - AWS IoT Integration:
 
 Since the messages arrive without problem to the network and Helium, we must integrate AWS IoT, for this we must go to the Integrations section and select AWS IoT Core.
 
@@ -145,7 +140,13 @@ Performing a system test.
 
 <img src="https://i.ibb.co/mhSRWRy/console1.gif">
 
-### AWS Amplify:
+# Dashboard:
+
+Aqui un ejemplo de como llegan los datos desde AWS IoT a nuestra pagina.
+
+<img src="https://i.ibb.co/k4crJ8h/image.png">
+
+## AWS Amplify:
 
 We are going to use the Amplify service to make the deployment of our application, but this requires having a repository where we have our code to be able to carry out the CI / CD process, we can use any of the following Git repository hosting services.
 
