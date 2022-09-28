@@ -138,9 +138,19 @@ The configuration that I used in my console was the following.
 
 Performing a system test.
 
-<img src="https://i.ibb.co/mhSRWRy/console1.gif">
+<img src="https://i.ibb.co/9gv6Wy9/ezgif-com-gif-maker.gif">
 
 # Dashboard:
+
+Para nuestro dashboard hicimos una pagina web sencilla con ReactJS, decidimos que el color verde era lo mas representativo de un reto de sustentabilidad.
+
+Para la pagina de graficas, hicimos un selector de cultivos, donde podremos ver los datos en tiempo real de cada cultivo, los datos en las graficas son directamente mandados desde Helium, en nuestra integracion con AWS.
+
+<img src="https://i.ibb.co/Gt9mnXX/image.png">
+
+Tambien agregamos una pagina, donde veremos la localizacion de nuestros devices, con el fin de poder realizar un mejor seguimiento del clima.
+
+<img src="https://i.ibb.co/b3v3WNq/image.png">
 
 Aqui un ejemplo de como llegan los datos desde AWS IoT a nuestra pagina.
 
