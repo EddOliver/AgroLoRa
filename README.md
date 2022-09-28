@@ -60,7 +60,7 @@ Ahora si podemos pasar a realizar nuestros devices.
 
 Como parte de este proyecto se decidio agregar otro tipo de placa LoRa de la familia WIO para mostrar el que entre todas y segun las necesidades es posible crear un ecosistema de sensores.
 
-CODE: 
+CODE: https://github.com/EddOliver/AgroLoRa/tree/main/FreeRTOS_LoRaWAN_AT
 
 https://wiki.seeedstudio.com/LoRa_E5_mini/
 
@@ -79,6 +79,22 @@ Esa placa puede ser programada mediante Arduino IDE y STM32CubeIDE, en nuestro c
 <img src="https://i.ibb.co/FndpCJC/image.png">
 
 Las credenciales que obtuvimos en [Helium Account and Credentials](#helium-account-and-credentials) las vamos a configurar en el archivo 
+
+https://github.com/EddOliver/AgroLoRa/blob/main/FreeRTOS_LoRaWAN_AT/LoRaWAN/App/se-identity.h
+
+<img src="https://i.ibb.co/zbW5kmR/image.png">
+
+Una vez realizado esto, solo habra que darle build al proyecto y programarlo en nustra board.
+
+<img src="https://i.ibb.co/pyrmd1x/image.png">
+
+Si todo el proceso anterior esta bien realizado, podremos revisar en un monitor serial, que la board responde a los comandos AT.
+
+<img src="https://i.ibb.co/HBrn9ps/image.png">
+
+Ya que tenemos nuestra board funcionando como un nodo LoRa, podemos mandar datos a travez de ella desde cualquier MCU mediante comunicacion serial, en nuestro caso usamos un ESP32 el cual se encargara de leer los datos de los sensores y mandarlos mediante la board a LoRa.
+
+Code: 
 
 # Create your Dashboard
 
