@@ -46,17 +46,21 @@ Antes de empezar a configurar los sevices, plataforma e integraciones. Primero n
 
 En el menu de devices tendras que crear un device nuevo.
 
-<img src="https://i.ibb.co/QkZDfBG/image-3.png">
+<img src="https://i.ibb.co/thn3wyh/image-4.png">
 
+Inmediatamente la plataforma nos dara las 3 credenciales necesarias para que nuestro device mande datos a Helium.
 
+<img src="https://i.ibb.co/44hzpYv/image-5.png">
 
-
+Ahora si podemos pasar a realizar nuestros devices.
 
 # Wio Terminal Setup:
 
 # Lora E5 mini Setup:
 
 Como parte de este proyecto se decidio agregar otro tipo de placa LoRa de la familia WIO para mostrar el que entre todas y segun las necesidades es posible crear un ecosistema de sensores.
+
+CODE: 
 
 https://wiki.seeedstudio.com/LoRa_E5_mini/
 
@@ -73,6 +77,8 @@ Para programar nuestra placa tenemos que conectar los pines de programacion de l
 Esa placa puede ser programada mediante Arduino IDE y STM32CubeIDE, en nuestro caso ya que SeeedStudio nos provee un ejemplo de como configurar las credenciales LoRa desde STM32CubeIDE, decidimos que seria mejor usar el software propio de ST.
 
 <img src="https://i.ibb.co/FndpCJC/image.png">
+
+Las credenciales que obtuvimos en [Helium Account and Credentials](#helium-account-and-credentials) las vamos a configurar en el archivo 
 
 # Create your Dashboard
 

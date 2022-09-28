@@ -1,0 +1,3 @@
+C:/Users/VAI/Documents/Cube/LoRaWan-E5-Node-main/Utilities/misc/stm32_tiny_vsnprintf.c:91:12:ee_skip_atoi	24	static
+C:/Users/VAI/Documents/Cube/LoRaWan-E5-Node-main/Utilities/misc/stm32_tiny_vsnprintf.c:100:14:ee_number	104	static
+C:/Users/VAI/Documents/Cube/LoRaWan-E5-Node-main/Utilities/misc/stm32_tiny_vsnprintf.c:485:5:tiny_vsnprintf_like	80	static

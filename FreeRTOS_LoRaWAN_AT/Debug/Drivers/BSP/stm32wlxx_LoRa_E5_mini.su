@@ -1,0 +1,14 @@
+../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_bus.h:449:22:LL_AHB2_GRP1_EnableClock	24	static
+C:/Users/VAI/Documents/Cube/LoRaWan-E5-Node-main/Drivers/BSP/STM32WLxx_LoRa_E5_mini/stm32wlxx_LoRa_E5_mini.c:114:10:BSP_GetVersion	4	static
+C:/Users/VAI/Documents/Cube/LoRaWan-E5-Node-main/Drivers/BSP/STM32WLxx_LoRa_E5_mini/stm32wlxx_LoRa_E5_mini.c:132:9:BSP_LED_Init	40	static
+C:/Users/VAI/Documents/Cube/LoRaWan-E5-Node-main/Drivers/BSP/STM32WLxx_LoRa_E5_mini/stm32wlxx_LoRa_E5_mini.c:161:9:BSP_LED_DeInit	16	static
+C:/Users/VAI/Documents/Cube/LoRaWan-E5-Node-main/Drivers/BSP/STM32WLxx_LoRa_E5_mini/stm32wlxx_LoRa_E5_mini.c:181:9:BSP_LED_On	16	static
+C:/Users/VAI/Documents/Cube/LoRaWan-E5-Node-main/Drivers/BSP/STM32WLxx_LoRa_E5_mini/stm32wlxx_LoRa_E5_mini.c:197:9:BSP_LED_Off	16	static
+C:/Users/VAI/Documents/Cube/LoRaWan-E5-Node-main/Drivers/BSP/STM32WLxx_LoRa_E5_mini/stm32wlxx_LoRa_E5_mini.c:213:9:BSP_LED_Toggle	16	static
+C:/Users/VAI/Documents/Cube/LoRaWan-E5-Node-main/Drivers/BSP/STM32WLxx_LoRa_E5_mini/stm32wlxx_LoRa_E5_mini.c:229:9:BSP_LED_GetState	16	static
+C:/Users/VAI/Documents/Cube/LoRaWan-E5-Node-main/Drivers/BSP/STM32WLxx_LoRa_E5_mini/stm32wlxx_LoRa_E5_mini.c:256:9:BSP_PB_Init	40	static
+C:/Users/VAI/Documents/Cube/LoRaWan-E5-Node-main/Drivers/BSP/STM32WLxx_LoRa_E5_mini/stm32wlxx_LoRa_E5_mini.c:304:9:BSP_PB_DeInit	16	static
+C:/Users/VAI/Documents/Cube/LoRaWan-E5-Node-main/Drivers/BSP/STM32WLxx_LoRa_E5_mini/stm32wlxx_LoRa_E5_mini.c:321:9:BSP_PB_GetState	16	static
+C:/Users/VAI/Documents/Cube/LoRaWan-E5-Node-main/Drivers/BSP/STM32WLxx_LoRa_E5_mini/stm32wlxx_LoRa_E5_mini.c:331:6:BSP_PB_IRQHandler	16	static
+C:/Users/VAI/Documents/Cube/LoRaWan-E5-Node-main/Drivers/BSP/STM32WLxx_LoRa_E5_mini/stm32wlxx_LoRa_E5_mini.c:345:13:BSP_PB_Callback	16	static
+C:/Users/VAI/Documents/Cube/LoRaWan-E5-Node-main/Drivers/BSP/STM32WLxx_LoRa_E5_mini/stm32wlxx_LoRa_E5_mini.c:578:13:BUTTON_SW1_EXTI_Callback	8	static

@@ -1,0 +1,6 @@
+../LoRaWAN/App/lora_command.c:593:6:CMD_Init	16	static
+../LoRaWAN/App/lora_command.c:614:6:CMD_Process	72	static,ignoring_inline_asm
+../LoRaWAN/App/lora_command.c:699:16:CMD_ProcessBackSpace	40	static
+../LoRaWAN/App/lora_command.c:748:13:CMD_GetChar	16	static
+../LoRaWAN/App/lora_command.c:777:13:parse_cmd	32	static
+../LoRaWAN/App/lora_command.c:865:13:com_error	16	static

@@ -1,0 +1,4 @@
+C:/Users/VAI/Documents/Cube/LoRaWan-E5-Node-main/Middlewares/Third_Party/LoRaWAN/LmHandler/NvmDataMgmt.c:52:6:NvmDataMgmtEvent	16	static
+C:/Users/VAI/Documents/Cube/LoRaWan-E5-Node-main/Middlewares/Third_Party/LoRaWAN/LmHandler/NvmDataMgmt.c:59:10:NvmDataMgmtStore	4	static
+C:/Users/VAI/Documents/Cube/LoRaWan-E5-Node-main/Middlewares/Third_Party/LoRaWAN/LmHandler/NvmDataMgmt.c:154:10:NvmDataMgmtRestore	4	static
+C:/Users/VAI/Documents/Cube/LoRaWan-E5-Node-main/Middlewares/Third_Party/LoRaWAN/LmHandler/NvmDataMgmt.c:221:6:NvmDataMgmtFactoryReset	4	static

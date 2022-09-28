@@ -1,0 +1,8 @@
+../../../../../Drivers/CMSIS/Include/core_cm4.h:1933:34:__NVIC_SystemReset	4	static,ignoring_inline_asm
+C:/Users/VAI/Documents/Cube/LoRaWan-E5-Node-main/Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpFirmwareManagement.c:144:15:LmhpFirmwareManagementPackageFactory	4	static
+C:/Users/VAI/Documents/Cube/LoRaWan-E5-Node-main/Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpFirmwareManagement.c:150:13:LmhpFirmwareManagementInit	32	static
+C:/Users/VAI/Documents/Cube/LoRaWan-E5-Node-main/Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpFirmwareManagement.c:167:13:LmhpFirmwareManagementIsInitialized	4	static
+C:/Users/VAI/Documents/Cube/LoRaWan-E5-Node-main/Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpFirmwareManagement.c:172:13:LmhpFirmwareManagementIsRunning	4	static
+C:/Users/VAI/Documents/Cube/LoRaWan-E5-Node-main/Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpFirmwareManagement.c:182:13:LmhpFirmwareManagementProcess	4	static
+C:/Users/VAI/Documents/Cube/LoRaWan-E5-Node-main/Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpFirmwareManagement.c:187:13:LmhpFirmwareManagementOnMcpsIndication	72	static
+C:/Users/VAI/Documents/Cube/LoRaWan-E5-Node-main/Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpFirmwareManagement.c:350:13:OnRebootTimer	16	static
