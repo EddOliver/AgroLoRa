@@ -182,3 +182,15 @@ The result will be a link similar to this one.
 
 WebApp: https://main.d1xaout2n54w4m.amplifyapp.com/
 
+# Final Product:
+
+LoRa E5 Mini:
+<img src="https://i.ibb.co/C83ghHq/20220927-112329.png">
+<img src="https://i.ibb.co/jDBfByZ/20220927-111909.png">
+
+Wio Terminal:
+
+# EPIC DEMO:
+
+# Conclusion:
+
