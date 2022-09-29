@@ -482,8 +482,11 @@ Video:
 Here is the final version of the complementary sensor:
 
 LoRa E5 Mini:
+
 <img src="https://hackster.imgix.net/uploads/attachments/1503205/image_2hLtqRxLPi.png?auto=compress%2Cformat&w=740&h=555&fit=max"  height="400px">
+
 <img src="https://hackster.imgix.net/uploads/attachments/1503099/image_oe3FOQt0G4.png?auto=compress%2Cformat&w=740&h=555&fit=max" height="400px">
+
 <img src="https://hackster.imgix.net/uploads/attachments/1503098/image_WbAMADC22x.png?auto=compress%2Cformat&w=740&h=555&fit=max" height="400px">
 
 Testing the Valve:
