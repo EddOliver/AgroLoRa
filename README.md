@@ -1,4 +1,4 @@
-# AgroLoRa
+https://www.youtube.com/watch?v=z-katBlGzrI# AgroLoRa
 
 <img src="https://i.ibb.co/h1XmwsY/agrolora.png" width="400">
 
@@ -6,7 +6,7 @@ Sustainable platform of sensing and irrigation automation based around the Sense
 
 # Watch our demo video:
 
-[![Demo](https://i.ibb.co/j3DCtPZ/image.png)](https://www.youtube.com/watch?v=igEGP1Jwgl0)
+[![Demo](https://i.ibb.co/j3DCtPZ/image.png)](https://www.youtube.com/watch?v=z-katBlGzrI)
 
 # Test the product:
 
